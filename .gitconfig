@@ -1,0 +1,59 @@
+[alias]
+	ce = config --global --edit
+	#############
+	r = remote
+	rv = remote -v
+	#############
+	s = status
+	sb = status -s -b
+	b = branch
+	a = add --all
+	d = diff
+	l = log --oneline
+	lg = log --oneline --graph --decorate
+	#############
+	ck = checkout
+	ckb = checkout -b
+	#############
+	ca = commit -a
+	cm = commit -m
+	cam = commit -am
+	cd = commit --amend
+	cad = commit -a --amend
+	#############
+	cp = cherry-pick
+	cpa = cherry-pick --abort
+	cpc = cherry-pick --continue
+	#############
+	f = fetch
+	fo = fetch origin
+	#############
+	re = reset
+	rh = reset HEAD
+	reh = reset --hard
+	rehh = reset --hard HEAD
+	#############
+	rba = rebase --abort
+	rbc = rebase --continue
+	rbi = rebase -i
+	rbs = rebase --skip
+	#############
+	m = merge
+	ma = merge --abort
+	mc = merge --continue
+	ms = merge --skip
+	#############
+	ps = push
+	pso = push origin
+	psuo = push -u origin
+	#############
+	pl = pull
+	plr = pull --rebase
+	plo = pull --rebase origin
+	#############
+	sa = stash apply
+	sc = stash clear
+	sd = stash drop
+	sl = stash list
+	sp = stash pop
+	#############
